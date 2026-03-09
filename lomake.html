@@ -9,36 +9,65 @@
 <body>
 
     <form>
+        <table>
+            <tr>
+                <td>
+                    <fieldset>
+                        <legend>Henkilötiedot</legend>
+                        <table>
+                            <tr>
+                                <td> <label for="fname">Etunimi</label> </td>
+                                <td> <input type="text" id="fname"> </td>
+                            </tr>
+                            <td> <label for="Iname">Sukunimi</label></td>
+                            <td> <input type="text" id="Iname"></td>
+                            <tr>
+                                <td> <label for="password">Salasana</label></td>
+                                <td> <input type="password" id="password"></td>
+                            </tr>
 
-        <fieldset>
-            <legend>Henkilötiedot</legend>
-            <table>
-                <tr>
-                    <td> <label for="fname">Etunimi</label> </td>
-                    <td> <input type="text" id="fname"> </td>
-                </tr>
-                <td> <label for="Iname">Sukunimi</label></td>
-                <td> <input type="text" id="Iname"></td>
-                <tr>
-                    <td> <label for="password">Salasana</label></td>
-                    <td> <input type="password" id="password"></td>
-                </tr>
-                <td> <input type="submit" value="Lähetä"></td>
-            </table>
-        </fieldset>
-        <fieldset>
-            <legend>Valinta</legend>
-            <table>
-                <tr>
-                    <td><input type="checkbox" id="emailselect"></td>
-                    <td><label for="emailselect">Sähköposti</label></td>
-                </tr>
-                <tr>
-                    <td><input type="checkbox" id="telselect"></td>
-                    <td><label for="telselect">Puhelin</label></td>
-                </tr>
-            </table>
-        </fieldset>
+                        </table>
+                    </fieldset>
+                </td>
+                <td>
+                    <fieldset>
+                        <legend>Valinta</legend>
+                        <table>
+                            <tr>
+                                <td><input type="checkbox" id="emailselect"></td>
+                                <td><label for="emailselect">Sähköposti</label></td>
+                            </tr>
+                            <tr>
+                                <td><input type="checkbox" id="telselect"></td>
+                                <td><label for="telselect">Puhelin</label></td>
+                            </tr>
+                        </table>
+                    </fieldset>
+                </td>
+            </tr>
+
+            <td colspan="2"> <!--Venyttää lähetä laatikon kahden systeemi kokoiseks-->
+                <fieldset>
+                    <table>
+                        <tr>
+
+                        </tr>
+                        <tr>
+                            <td colspan="2">
+                                <textarea rows="10" cols="50"></textarea>
+                            </td>
+                        <tr>
+                            <td> <input type="file" id="file">
+                            </td>
+
+                            <td> <input type="submit" value="Lähetä"> </td>
+                        </tr>
+
+                    </table>
+                </fieldset>
+            </td>
+
+        </table>
     </form>
 
 
