@@ -9,19 +9,36 @@
 <body>
 
     <form>
-        <table>
-            <tr>
-                <td> <label for="fname">Etunimi</label> </td>
-                <td> <input type="text" id="fname"> </td>
-            </tr>
-            <td> <label for="Iname">Sukunimi</label></td>
-            <td> <input type="text" id="Iname"></td>
-            <tr>
-                <td> <label for="password">Salasana</label></td>
-                <td> <input type="password" id="password"></td>
-            </tr>
-            <td> <input type="submit" value="Lähetä"></td>
-        </table>
+
+        <fieldset>
+            <legend>Henkilötiedot</legend>
+            <table>
+                <tr>
+                    <td> <label for="fname">Etunimi</label> </td>
+                    <td> <input type="text" id="fname"> </td>
+                </tr>
+                <td> <label for="Iname">Sukunimi</label></td>
+                <td> <input type="text" id="Iname"></td>
+                <tr>
+                    <td> <label for="password">Salasana</label></td>
+                    <td> <input type="password" id="password"></td>
+                </tr>
+                <td> <input type="submit" value="Lähetä"></td>
+            </table>
+        </fieldset>
+        <fieldset>
+            <legend>Valinta</legend>
+            <table>
+                <tr>
+                    <td><input type="checkbox" id="emailselect"></td>
+                    <td><label for="emailselect">Sähköposti</label></td>
+                </tr>
+                <tr>
+                    <td><input type="checkbox" id="telselect"></td>
+                    <td><label for="telselect">Puhelin</label></td>
+                </tr>
+            </table>
+        </fieldset>
     </form>
 
 
