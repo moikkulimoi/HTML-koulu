@@ -1,3 +1,43 @@
+body {
+    background-color: lightpink;
+    font-family: 'Poppins', sans-serif;
+}
+
+
 fieldset {
     background-color: lightblue;
+    border-color: gray;
+    border-width: 5px;
+}
+
+
+
+td {
+    text-align: left;
+    letter-spacing: 2px;
+    margin-right: 6px;
+
+}
+
+.reunukset {
+
+    border-color: blue;
+    border-style: solid;
+    margin-right: 6px;
+}
+
+table {
+
+    border-spacing: 10px;
+}
+
+.box {
+    padding: 20px;
+    margin: 30px;
+    background: lightblue;
+}
+
+.title {
+    text-align: center;
+    font-size: 40px;
 }
