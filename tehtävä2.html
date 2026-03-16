@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="fi">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Contact & Feedback Form</title>
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+        }
+
+        fieldset {
+            border: 2px solid #999;
+            padding: 10px 15px 15px 15px;
+            margin-bottom: 20px;
+        }
+
+        legend {
+            font-weight: bold;
+            padding: 0 5px;
+        }
+
+        label {
+            display: inline-block;
+            width: 120px;
+            margin-bottom: 6px;
+        }
+
+        .contact-grid {
+            display: grid;
+            grid-template-columns: 250px 200px;
+            column-gap: 20px;
+            row-gap: 6px;
+            align-items: center;
+        }
+
+        .checkbox-row {
+            display: flex;
+            align-items: center;
+            gap: 6px;
+        }
+
+        textarea {
+            width: 95%;
+            height: 200px;
+            resize: vertical;
+        }
+
+        .file-row {
+            margin-top: 10px;
+            margin-bottom: 15px;
+        }
+
+        button {
+            padding: 6px 15px;
+            font-size: 14px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <form>
+
+        <!-- CONTACT INFORMATION -->
+        <fieldset>
+            <legend>Contact information:</legend>
+
+            <div class="contact-grid">
+
+                <label for="fname">First name:</label>
+                <input type="text" id="fname" name="fname">
+
+                <span>Preferred contact method:</span>
+                <span></span>
+
+                <label for="lname">Last name:</label>
+                <input type="text" id="lname" name="lname">
+
+                <label></label>
+                <div class="checkbox-row">
+                    <input type="checkbox" id="pref_email" name="pref_email">
+                    <label for="pref_email" style="width:auto;">Email</label>
+                </div>
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email">
+
+                <label></label>
+                <div class="checkbox-row">
+                    <input type="checkbox" id="pref_phone" name="pref_phone">
+                    <label for="pref_phone" style="width:auto;">Telephone</label>
+                </div>
+
+                <label for="tel">Telephone:</label>
+                <input type="tel" id="tel" name="tel">
+
+            </div>
+        </fieldset>
+
+        <!-- FEEDBACK -->
+        <fieldset>
+            <legend>Feedback:</legend>
+
+            <label for="subject">Message subject:</label>
+            <input type="text" id="subject" name="subject" style="width:300px;"><br><br>
+
+            <textarea id="message" name="message"></textarea>
+
+            <div class="file-row">
+                <label for="file">Attach a file:</label>
+                <input type="file" id="file" name="file">
+            </div>
+
+            <button type="submit">Send</button>
+        </fieldset>
+
+    </form>
+
+</body>
+
+</html>
