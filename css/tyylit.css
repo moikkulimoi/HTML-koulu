@@ -10,7 +10,7 @@ fieldset {
     border-width: 5px;
     padding: 10px;
     margin: 10px;
-    width: 600px;
+    width: 500px;
 }
 
 
@@ -48,10 +48,30 @@ table {
 .container {
     display: flex;
     flex-direction: column;
+
 }
 
 .input-container {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    margin-top: 5px;
+}
+
+.input-column {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.row-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.main-container {
+    display: flex;
+    flex-direction: column;
+
 }
