@@ -33,19 +33,19 @@
 
 
                 <div class="container">
+                    <div class="row-container">
+                        <legend>Valinta</legend>
 
-                    <legend>Valinta</legend>
 
-
-                    <div class="input-container">
-                        <input type="checkbox" id="emailselect">
-                        <label for="emailselect">Sähköposti</label>
+                        <div class="input-container">
+                            <input type="checkbox" id="emailselect">
+                            <label for="emailselect">Sähköposti</label>
+                        </div>
+                        <div class="input-container">
+                            <input type="checkbox" id="telselect">
+                            <label for="telselect">Puhelin</label>
+                        </div>
                     </div>
-                    <div class="input-container">
-                        <input type="checkbox" id="telselect">
-                        <label for="telselect">Puhelin</label>
-                    </div>
-
                 </div>
 
             </fieldset>
@@ -53,16 +53,22 @@
 
 
             <fieldset>
+                <legend>Tekstikenttä ja tiedoston lähetys</legend>
                 <div class="container">
                     <div class="input-container">
-                        <textarea rows="10" cols="50"></textarea> <!--Lisää ison texti boxin-->
+                        <label for="textarea">Tekstikenttä</label>
                     </div>
-                    <div class="input-container">
-                        <input type="file" id="file"> <!--LISÄÄ "valitse tiedosto" naviskan-->
-                        <input type="submit" value="Lähetä">
+                    <div class="row-container">
+
+                        <div class="input-container">
+                            <textarea rows="10" cols="50"></textarea> <!--Lisää ison texti boxin-->
+                        </div>
+                        <div class="input-container">
+                            <input type="file" id="file"> <!--LISÄÄ "valitse tiedosto" naviskan-->
+                            <input type="submit" value="Lähetä">
+                        </div>
                     </div>
                 </div>
-
 
             </fieldset>
         </div>
