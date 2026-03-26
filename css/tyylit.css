@@ -77,4 +77,27 @@ table {
 
 }
 
-.venytys {}
+.table-div {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+.row-div {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+
+.cell-div {
+    background-color: lightblue;
+    padding: 10px;
+    border: 2px solid blue;
+    flex: 1;
+}
+
+.otsikko {
+    font-weight: bold;
+    text-align: center;
+}
