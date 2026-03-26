@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="en">
+<html lang="fi">
 
 <head>
     <meta charset="utf-8">
@@ -7,6 +7,17 @@
     <title>Bootstrap demo</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <style>
+        .all {
+            text-align: center;
+            margin-top: 100px;
+        }
+
+        .keskitys {
+            width: 80%;
+            margin: auto;
+        }
+    </style>
 </head>
 
 <body>
@@ -32,126 +43,133 @@
         </div>
     </nav>
     <h1>Hello, Tommi!</h1>
-    <div class="container"> <!-- Container for the main content  -->
-        <div class="row"> <!-- Row to hold the cards -->
-            <div class="col-6 col-lg-2 col-md-3 col-sm-4 card text-bg-info m-3">
-                <!-- Card with responsive column sizes and margin -->
-                <div class="card-header text-center">
-                    &lt;HTML&gt;
-                </div>
 
-                <div class="card-body text-center">
-                    &lt;HTML&gt; (HyperText Markup Language) on verkkosivujen perusrakennekieli.
-                </div>
-                <div class="card-body text-center">
-                    CSS (Cascading Style Sheets) on tyylitiedostokieli, joka määrittelee, miltä HTML-elementit
-                    näyttävät. <br>CSS tyylit määritellään yleensä erillisessä .css-tiedostossa, joka linkitetään
-                    HTML-sivuun &lt;head&gt;-osiossa.</br>
-                </div>
+    <div class="all keskitys">
+        <div class="container"> <!-- Container for the main content  -->
+            <div class="row justify-content-center"> <!-- Row to hold the cards -->
+                <div class="col-12 col-sm-6 col-md-3 col-lg-3 card text-bg-info m-3">
+                    <!-- Card with responsive column sizes and margin -->
+                    <div class="card-header text-center">
+                        &lt;HTML&gt;
+                    </div>
 
-            </div>
-            <div class="col-6 col-lg-2 col-md-3 col-sm-4 card text-bg-info m-3">
-                <div class="card-header text-center">
-                    &lt;head&gt;
-                </div>
+                    <div class="card-body text-center">
+                        &lt;HTML&gt; (HyperText Markup Language) on verkkosivujen perusrakennekieli.
+                    </div>
+                    <div class="card-body text-center">
+                        CSS (Cascading Style Sheets) on tyylitiedostokieli, joka määrittelee, miltä HTML-elementit
+                        näyttävät. <br>CSS tyylit määritellään yleensä erillisessä .css-tiedostossa, joka linkitetään
+                        HTML-sivuun &lt;head&gt;-osiossa.</br>
+                    </div>
 
-                <div class="card-body text-center">
-                    &lt;head&gt; sisältää taustatietoa (metadataa) verkkosivusta.
                 </div>
-                <div class="card-body text-center">
-                    CSS muotoilun tiedosto reitti tulee tähän osioon. esim css/tyylit.css
-                </div>
+                <div class="col-12 col-sm-6 col-md-3 col-lg-3 card text-bg-info m-3">
+                    <div class="card-header text-center">
+                        &lt;head&gt;
+                    </div>
 
-            </div>
-            <div class="col-6 col-lg-2 col-md-3 col-sm-4 card text-bg-info m-3">
-                <div class="card-header text-center">
-                    &lt;Body&gt;
-                </div>
+                    <div class="card-body text-center">
+                        &lt;head&gt; sisältää taustatietoa (metadataa) verkkosivusta.
+                    </div>
+                    <div class="card-body text-center">
+                        CSS muotoilun tiedosto reitti tulee tähän osioon. esim css/tyylit.css
+                    </div>
 
-                <div class="card-body text-center">
-                    &lt;body&gt; sisältää kaiken näkyvän sisällön, joka näytetään käyttäjälle verkkosivulla.
                 </div>
-                <div class="card-body text-center">
-                    CSS muotoilu &lt;body&gt; style="background-color: lightblue;"&gt; &lt;/body&gt; Tämä muuttaa
-                    taustavärin vaaleansiniseksi.
-                </div>
+                <div class="col-12 col-sm-6 col-md-3 col-lg-3 card text-bg-info m-3">
+                    <div class="card-header text-center">
+                        &lt;Body&gt;
+                    </div>
 
-            </div>
-            <div class="col-6 col-lg-2 col-md-3 col-sm-4 card text-bg-info m-3">
-                <div class="card-header text-center">
-                    &lt;p&gt;
-                </div>
+                    <div class="card-body text-center">
+                        &lt;body&gt; sisältää kaiken näkyvän sisällön, joka näytetään käyttäjälle verkkosivulla.
+                    </div>
+                    <div class="card-body text-center">
+                        CSS muotoilu &lt;body&gt; style="background-color: lightblue;"&gt; &lt;/body&gt; Tämä muuttaa
+                        taustavärin vaaleansiniseksi.
+                    </div>
 
-                <div class="card-body text-center">
-                    &lt;p&gt; tarkoittaa paragraph eli kappale.
-                    Sillä merkitään tavallista tekstisisältöä verkkosivulla.
                 </div>
-                <div class="card-body text-center">
-                    CSS muotoilu &lt;p style="color: red;"&gt; Tämä teksti on punainen. &lt;/p&gt; Tämä muuttaa tekstin
-                    värin punaiseksi.
-                </div>
+                <div class="col-12 col-sm-6 col-md-3 col-lg-3 card text-bg-info m-3">
+                    <div class="card-header text-center">
+                        &lt;p&gt;
+                    </div>
 
-            </div>
-            <div class="col-6 col-lg-2 col-md-3 col-sm-4 card text-bg-info m-3">
-                <div class="card-header text-center">
-                    &lt;img&gt;
-                </div>
+                    <div class="card-body text-center">
+                        &lt;p&gt; tarkoittaa paragraph eli kappale.
+                        Sillä merkitään tavallista tekstisisältöä verkkosivulla.
+                    </div>
+                    <div class="card-body text-center">
+                        CSS muotoilu &lt;p style="color: red;"&gt; Tämä teksti on punainen. &lt;/p&gt; Tämä muuttaa
+                        tekstin
+                        värin punaiseksi.
+                    </div>
 
-                <div class="card-body text-center">
-                    &lt;img&gt;‑elementti lisää kuvan verkkosivulle.
-                    Se ei ole tekstielementti, vaan upottaa ulkoisen tai paikallisen kuvatiedoston sivulle.
                 </div>
-                <div class="card-body text-center">
-                    CSS muotoilu &lt;img src="Kuvat/html kuva.jpg" width="400" style="border: 2px solid black;"&gt; Tämä
-                    lisää mustan kehyksen kuvan ympärille.
-                </div>
+                <div class="col-12 col-sm-6 col-md-3 col-lg-3 card text-bg-info m-3">
+                    <div class="card-header text-center">
+                        &lt;img&gt;
+                    </div>
 
-            </div>
-            <div class="col-6 col-lg-2 col-md-3 col-sm-4 card text-bg-info m-3">
-                <div class="card-header text-center">
-                    &lt;a&gt;
-                </div>
+                    <div class="card-body text-center">
+                        &lt;img&gt;‑elementti lisää kuvan verkkosivulle.
+                        Se ei ole tekstielementti, vaan upottaa ulkoisen tai paikallisen kuvatiedoston sivulle.
+                    </div>
+                    <div class="card-body text-center">
+                        CSS muotoilu &lt;img src="Kuvat/html kuva.jpg" width="400" style="border: 2px solid black;"&gt;
+                        Tämä
+                        lisää mustan kehyksen kuvan ympärille.
+                    </div>
 
-                <div class="card-body text-center">
-                    &lt;a&gt; (anchor) luo linkin, jota klikkaamalla käyttäjä siirtyy toiseen sivuun, tiedostoon tai
-                    samaan
-                    sivuun toiseen kohtaan.
-                    href="..." → osoite, johon linkki vie
                 </div>
-                <div class="card-body text-center">
-                    CSS muotoilu &lt;a href="https://www.google.com/" style="color: green;"&gt; Avaa Google &lt;/a&gt;
-                    Tämä muuttaa linkin värin vihreäksi.
-                </div>
+                <div class="col-12 col-sm-6 col-md-3 col-lg-3 card text-bg-info m-3">
+                    <div class="card-header text-center">
+                        &lt;a&gt;
+                    </div>
 
-            </div>
-            <div class="col-6 col-lg-2 col-md-3 col-sm-4 card text-bg-info m-3">
-                <div class="card-header text-center">
-                    &lt;br&gt;
-                </div>
+                    <div class="card-body text-center">
+                        &lt;a&gt; (anchor) luo linkin, jota klikkaamalla käyttäjä siirtyy toiseen sivuun, tiedostoon tai
+                        samaan
+                        sivuun toiseen kohtaan.
+                        href="..." → osoite, johon linkki vie
+                    </div>
+                    <div class="card-body text-center">
+                        CSS muotoilu &lt;a href="https://www.google.com/" style="color: green;"&gt; Avaa Google
+                        &lt;/a&gt;
+                        Tämä muuttaa linkin värin vihreäksi.
+                    </div>
 
-                <div class="card-body text-center">
-                    &lt;br&gt; tekee rivinvaihdon tekstin sisällä — sama kuin ”enter” ilman uutta kappaletta.
                 </div>
-                <div class="card-body text-center">
-                    CSS muotoilu &lt;br&gt; voi olla &lt;br style="line-height: 2;"&gt; Tämä lisää tilaa rivinvaihdon
-                    ympärille.
-                </div>
+                <div class="col-12 col-sm-6 col-md-3 col-lg-3 card text-bg-info m-3">
+                    <div class="card-header text-center">
+                        &lt;br&gt;
+                    </div>
 
-            </div>
-            <div class="col-6 col-lg-2 col-md-3 col-sm-4 card text-bg-info m-3">
-                <div class="card-header text-center">
-                    &lt;H1&gt; &lt;H2&gt; &lt;H3&gt; jne
-                </div>
+                    <div class="card-body text-center">
+                        &lt;br&gt; tekee rivinvaihdon tekstin sisällä — sama kuin ”enter” ilman uutta kappaletta.
+                    </div>
+                    <div class="card-body text-center">
+                        CSS muotoilu &lt;br&gt; voi olla &lt;br style="line-height: 2;"&gt; Tämä lisää tilaa
+                        rivinvaihdon
+                        ympärille.
+                    </div>
 
-                <div class="card-body text-center">
-                    &lt;H1&gt; on HTML-sivun tärkein otsikko (tässä sivussa se on HELLO TOMMI osio).
-                    Se kertoo selaimelle ja hakukoneille, mikä on sivun pääotsikko tai tärkein aihe.
                 </div>
-                <div class="card-body text-center">
-                    CSS muotoilu &lt;H1 style="font-size: 36px; color: purple;"&gt; Tämä on suuri violetti otsikko.
-                    &lt;/H1&gt; Tämä muuttaa
-                </div>
+                <div class="col-12 col-sm-6 col-md-3 col-lg-3 card text-bg-info m-3">
+                    <div class="card-header text-center">
+                        &lt;H1&gt; &lt;H2&gt; &lt;H3&gt; jne
+                    </div>
 
+                    <div class="card-body text-center">
+                        &lt;H1&gt; on HTML-sivun tärkein otsikko (tässä sivussa se on HELLO TOMMI osio).
+                        Se kertoo selaimelle ja hakukoneille, mikä on sivun pääotsikko tai tärkein aihe.
+                    </div>
+                    <div class="card-body text-center">
+                        CSS muotoilu &lt;H1 style="font-size: 36px; color: purple;"&gt; Tämä on suuri violetti otsikko.
+                        &lt;/H1&gt; Tämä muuttaa
+                    </div>
+
+                </div>
             </div>
         </div>
 
